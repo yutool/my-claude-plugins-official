@@ -1,6 +1,5 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-official",
+  "name": "my-claude-plugins-official",
   "description": "Directory of popular Claude Code extensions including development tools, productivity plugins, and MCP integrations",
   "owner": {
     "name": "Anthropic",
@@ -715,17 +714,6 @@
       "homepage": "https://github.com/qodo-ai/qodo-skills.git"
     },
     {
-      "name": "semgrep",
-      "description": "Semgrep catches security vulnerabilities in real-time and guides Claude to write secure code from the start.",
-      "category": "security",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/semgrep/mcp-marketplace.git",
-        "path": "plugin"
-      },
-      "homepage": "https://github.com/semgrep/mcp-marketplace.git"
-    },
-    {
       "name": "pagerduty",
       "description": "Enhance code quality and security through PagerDuty risk scoring and incident correlation. Score pre-commit diffs against historical incident data and surface deployment risk before you ship.",
       "category": "monitoring",
@@ -792,19 +780,6 @@
       "homepage": "https://www.adspirer.com"
     },
     {
-      "name": "railway",
-      "description": "Deploy and manage apps, databases, and infrastructure on Railway. Covers project setup, deploys, environment configuration, networking, troubleshooting, and monitoring.",
-      "category": "deployment",
-      "source": {
-        "source": "git-subdir",
-        "url": "railwayapp/railway-skills",
-        "path": "plugins/railway",
-        "ref": "main",
-        "sha": "d52f3741a6a33a3191d6138eb3d6c3355cb970d1"
-      },
-      "homepage": "https://docs.railway.com/ai/claude-code-plugin"
-    },
-    {
       "name": "sourcegraph",
       "description": "Code search and understanding across codebases. Search, read, and trace references across repositories; analyze refactor impact; investigate incidents via commit and diff search; run targeted security sweeps.",
       "category": "development",
@@ -841,19 +816,6 @@
       "homepage": "https://github.com/astronomer/agents"
     },
     {
-      "name": "legalzoom",
-      "description": "Attorney guidance and legal tools for business and personal needs. AI-powered document review identifies critical risks and important clauses, advises when to engage an attorney, and routes to LegalZoom's network when professional expertise is needed.",
-      "category": "productivity",
-      "source": {
-        "source": "git-subdir",
-        "url": "legalzoom/claude-plugins",
-        "path": "plugins/legalzoom",
-        "ref": "main",
-        "sha": "f9fd8a0ca6e1421bc1aacb113a109663a7a6f6d8"
-      },
-      "homepage": "https://www.legalzoom.com/"
-    },
-    {
       "name": "mintlify",
       "description": "Build beautiful documentation sites with Mintlify. Convert non-markdown files into properly formatted MDX pages, add and modify content with correct component use, and automate documentation updates.",
       "category": "development",
@@ -885,67 +847,6 @@
         "sha": "15dda227e34959b1340e33bb9aede7e23a273f42"
       },
       "homepage": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills"
-    },
-    {
-      "name": "amazon-location-service",
-      "description": "Guide developers through adding maps, places search, geocoding, routing, and other geospatial features with Amazon Location Service, including authentication setup, SDK integration, and best practices.",
-      "category": "location",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/awslabs/agent-plugins.git",
-        "path": "plugins/amazon-location-service",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/awslabs/agent-plugins"
-    },
-    {
-      "name": "aws-serverless",
-      "description": "Design, build, deploy, test, and debug serverless applications with AWS Serverless services.",
-      "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/awslabs/agent-plugins.git",
-        "path": "plugins/aws-serverless",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/awslabs/agent-plugins"
-    },
-    {
-      "name": "migration-to-aws",
-      "description": "Assess current cloud provider usage and billing to estimate and compare AWS services and pricing, with recommendations for migration or continued use of current provider.",
-      "category": "migration",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/awslabs/agent-plugins.git",
-        "path": "plugins/migration-to-aws",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/awslabs/agent-plugins"
-    },
-    {
-      "name": "deploy-on-aws",
-      "description": "Deploy applications to AWS with architecture recommendations, cost estimates, and IaC deployment.",
-      "category": "deployment",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/awslabs/agent-plugins.git",
-        "path": "plugins/deploy-on-aws",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/awslabs/agent-plugins"
-    },
-    {
-      "name": "zapier",
-      "description": "Connect 8,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
-      "category": "productivity",
-      "source": {
-        "source": "git-subdir",
-        "url": "zapier/zapier-mcp",
-        "path": "plugins/zapier",
-        "ref": "main",
-        "sha": "b93007e9a726c6ee93c57a949e732744ef5acbfd"
-      },
-      "homepage": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier"
     }
   ]
 }
